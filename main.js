@@ -39,8 +39,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
 
     shareBtn.addEventListener("click", () => {
-
-
+        // Share link to WhatsApp
+        window.open('whatsapp://send?text=Check to see if you are a millionaire https://mill-comm.github.io')
 
         // Wait for 30secs
 
