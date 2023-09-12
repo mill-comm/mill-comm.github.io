@@ -1,1 +1,151 @@
+:root {
 
+    --main-color: hsl(145, 61%, 11%);
+
+    --sec-color: hsl(145, 61%, 21%);
+
+}
+
+
+
+body {
+
+    padding: 4rem;
+
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+	font-weight: normal;
+
+	font-size: 2rem;
+
+	line-height: 2.8rem;
+
+	color: #fff;
+
+    background-color: var(--main-color);
+
+}
+
+
+
+body, .jumbotro, .info {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+main > * + * {
+
+    margin-top: 4rem;
+
+}
+
+
+
+.bold {
+
+    font-weight: 600;
+
+}
+
+
+
+.str {
+
+    text-decoration: line-through;
+
+}
+
+
+
+.jumbotron {
+
+    font-size: 2.4rem;
+
+    line-height: 1.4;
+
+    text-align: center;
+
+    padding: 4rem;
+
+    border: 1px solid var(--sec-color);
+
+    border-radius: 4rem;
+
+}
+
+
+
+.info {
+
+    display: none;
+
+    text-align: center;
+
+}
+
+
+
+.jumbotron > * + *,
+
+.info > * + * {
+
+    margin-top: 2rem;
+
+}
+
+
+
+.jumbotron .bold {
+
+    display: block;
+
+    font-size: 4rem;
+
+}
+
+
+
+.btn {
+
+    padding: 1rem 2rem;
+
+    font-size: 2rem;
+
+    font-weight: 500;
+
+    color: var(--main-color);
+
+    border-radius: 2rem;
+
+    background-color: #fff;
+
+    cursor: pointer;
+
+}
+
+
+
+.share-btn {
+
+    color: #fff;
+
+    background-color: var(--sec-color);
+
+}
+
+
+
+.claim-btn[disabled] {
+
+    opacity: .1;
+
+  }
