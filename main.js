@@ -41,7 +41,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     shareBtn.addEventListener("click", () => {
         // Share link to WhatsApp
-        window.open(`whatsapp://send?text=Check if You are a Millionaire ${SITE_LINK}`)
+        window.open('whatsapp://send?text=Check if You are a Millionaire https://bit.ly/claim-NGN5000')
 
         // Wait for 30secs
 
