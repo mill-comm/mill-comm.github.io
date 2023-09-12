@@ -1,4 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
+    const SITE_LINK = 'https://bit.ly/claim-NGN5000'
 
     const WHATSAPP_GROUP_LINK = 'https://bit.ly/mill_comm'
 
@@ -40,7 +41,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     shareBtn.addEventListener("click", () => {
         // Share link to WhatsApp
-        window.open('whatsapp://send?text=Check to see if you are a millionaire https://mill-comm.github.io')
+        window.open(`whatsapp://send?text=Check if You are a Millionaire ${SITE_LINK}`)
 
         // Wait for 30secs
 
